@@ -6,8 +6,6 @@ Welcome to the Data Structures and Algorithms (DSA) repository! This repository 
 
 - [Introduction](#introduction)
 - [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
