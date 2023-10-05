@@ -1,0 +1,10 @@
+public class practice2{
+    public static void main (System[] args)
+    {
+
+        char a = 'R';
+        char result = 'a';
+
+        System.out.println(result);
+    }
+}
