@@ -10,13 +10,21 @@ public class Input {
         for (int row = 0; row < example.length; row++) {
 
             for (int col = 0; col < example[row].length; col++) {
-                System.out.print("Enter the num for Column " + (col + 1) + ":");
+                System.out.print("Enter the num for row" + (row + 1) + ", and for column" + (col + 1) + ":");
 
                 example[row][col] = input.nextInt();
             }
         }
-
-        System.out.println(Arrays.deepToString(example));
+        // output
+        System.out.println("The resulted matrix is :");
+        for (int row = 0; row < example.length; row++) {
+            for (int col = 0; col < example[row].length; col++) {
+                // System.out.print("Enter the num for Column " + (col + 1) + ":");
+                System.out.print(example[row][col] + " ");
+            }
+            System.out.println();
+            // System.out.println(Arrays.deepToString(example));
+        }
 
     }
 }
