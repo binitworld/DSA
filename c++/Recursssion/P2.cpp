@@ -11,6 +11,6 @@ int main(){
     int n;
     cout<<"Enter the  Integer number to print The name upto : ";
     cin>>n;
-    f(0,n);
+    f(1,n);
     return 0;
 }
